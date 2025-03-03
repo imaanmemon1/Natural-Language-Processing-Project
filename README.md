@@ -34,8 +34,13 @@ Record a short video of your project to display here on your README. You can do 
 
 ## Project Description
 
-Write a description of the goal and/or problem that your application. Include descriptions of what text is being analyzed, either if its text files you are using to interpret text an how the user interacts with your project.
+The goal of this application is to summarize text by identifying and extracting key sentences. The program analyzes text files, such as Tangled.txt Cinderella.txt LittleRedRidingHood.txt & SnowWhite.txt, by reading and processing the content into words and sentences. Users interact with the project by selecting a story file and specifying the number of sentences they want in the summary. The program then displays a concise version of the story based on important words and sentence scoring.
 
 ## NLP Techniques
 
-Write a description of what natural lanugage technique (NLP) you implemented in your project. State which methods in your project are associated with this, and a brief explanation of how those methods word and how they are necessary in the NLP technique. 
+This project incorporates stopword removal to improve text summarization.
+
+(Implemented in processFile() and scoreSentences())
+
+Filters out common words (the, and, is, in, etc.) that don’t add meaning to the summary.
+Ensures only meaningful words contribute to sentence scoring.
