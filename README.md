@@ -21,15 +21,7 @@ Use your knowledge of object-oriented programming, ArrayLists, the String class,
 
 ## Video
 
-Record a short video of your project to display here on your README. You can do this by:
-
-- Screen record your project running on Code.org.
-- Upload that recording to YouTube.
-- Take a thumbnail for your image.
-- Upload the thumbnail image to your repo.
-- Use the following markdown code:
-
-[![Thumbnail for my projet](nameOfThumbnail.png)](youtube-URL-here)
+[![Thumbnail for my projet](Disney-Princess-Logo-2009.png)](https://youtu.be/0HS3vkQH6Kg)
 
 ## Project Description
 
