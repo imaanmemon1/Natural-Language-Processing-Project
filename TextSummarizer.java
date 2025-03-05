@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 /**
- * Summarizes text by extracting key sentences.
+ * Summarizes text by extracting key sentences the user asks for
  */
 public class TextSummarizer {
 
@@ -55,7 +55,7 @@ public class TextSummarizer {
                     word = "";
                 }
             }
-            // Add the last word if the line doesn't end with a separator
+            // Add the last word if the line doesn't end
             if (!word.isEmpty()) {
                 words.add(word.toLowerCase());
             }
@@ -63,10 +63,9 @@ public class TextSummarizer {
     }
 
     /**
-     * Student Developed Algorithm.
-     * Calculates the frequency of a given word in the text.
-     * @param targetWord The word to count.
-     * @return The frequency of the word.
+     * Calculates the frequency of a given word in the text
+     * @param targetWord the word to count
+     * @return the frequency of the word
      */
     private int calculateWordFrequency(String targetWord) {
         int count = 0;
@@ -81,7 +80,7 @@ public class TextSummarizer {
     /**
      * Student Developed Algorithm.
      * Scores sentences based on the frequency of words they contain.
-     * @return An array of sentence scores.
+     * @return An array of sentence scores
      */
     private int[] scoreSentences() {
         int[] sentenceScores = new int[sentences.size()];
@@ -97,9 +96,9 @@ public class TextSummarizer {
     }
 
     /**
-     * Generates a summary by selecting the top N sentences with the highest scores.
-     * @param numSentences The number of sentences to include in the summary.
-     * @return A summary of the text.
+     * Generates a summary by selecting the sentences with the highest scores
+     * @param numSentences the number of sentences to include in the summary
+     * @return a summary of the text chosen
      */
     public String generateSummary(int numSentences) {
         int[] sentenceScores = scoreSentences();
