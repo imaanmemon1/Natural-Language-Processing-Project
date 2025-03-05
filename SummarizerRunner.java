@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /**
- * Main class to run the Text Summarizer.
+ * Main class to run the Text Summarizer
  */
 public class SummarizerRunner {
     public static void main(String[] args) {

@@ -93,10 +93,10 @@ public class TextSummarizer {
     }
 
     /**
-     * Student Developed Algorithm.
-     * Calculates the frequency of a given word in the text.
-     * @param targetWord The word to count.
-     * @return The frequency of the word.
+     * Calculates the frequency of a given word in the text
+     * my student developed algorithm
+     * @param targetWord The word to count
+     * @return The frequency of the word
      */
     private int calculateWordFrequency(String targetWord) {
         int count = 0;
